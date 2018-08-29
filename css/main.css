@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css?family=Kosugi+Maru");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Poller+One");
+@import url("https://fonts.googleapis.com/css?family=Karla");
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #e83e8c;
+}
+
+body header {
+  margin-left: 0;
+  margin-right: 0;
+  height: 12vh;
+  background-color: #ffffff;
+  background-size: cover;
+  border-bottom: 1px solid #dc3545;
+}
+
+body header .logo {
+  margin: 25px 0 0 100px;
+  font-family: "Kosugi Maru";
+  font-size: 24px;
+}
+
+body header .navi {
+  margin: 17px 100px 0 0;
+  float: right;
+  font-family: "Raleway";
+}
+
+body header .navi .navi-link {
+  padding: 10px 25px 10px 25px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  font-weight: 600;
+}
+
+body header .navi .navi-link:hover {
+  color: #dc3545;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  cursor: pointer;
+}
+
+body header .navi .navi-link-last {
+  margin: 0 100px 0 0;
+}
+
+body header .navi .navi-color {
+  color: #dc3545;
+  font-weight: 600;
+}
+
+body header .navi .navi-color span {
+  font-size: 12px;
+}
+
+body header .navi .navi-color:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  cursor: pointer;
+}
+
+body .content {
+  height: 88vh;
+  background: url(../../img/content4.jpg) center center;
+  background-blend-mode: screen;
+  background-size: cover;
+}
+
+body .content .text {
+  margin: 35vh 0 0 100px;
+  color: #ffffff;
+  font-family: "Poller One";
+  font-weight: 600;
+  text-align: left;
+}
+
+body .content .text h1 {
+  margin: 0 0 -5px 0;
+}
+
+body .content .text h3, body .content .text h5 {
+  font-family: "Raleway";
+}
+
+body .content .text h5 {
+  color: #343a40;
+  margin-bottom: 50px;
+}
+
+body .content .text button {
+  padding: 25px;
+  color: #dc3545;
+  background-color: #ffffff;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border: 1px solid #dc3545;
+  font-family: "Raleway";
+  text-align: center;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+body .content .text button:hover {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+body .content .box {
+  width: 100%;
+  height: 50vh;
+  margin: 25vh 0 0 10%;
+  background: url(../../img/logo.png) center center;
+  text-align: center;
+}
+
+body .cards {
+  background-color: #ffffff;
+  height: 30vh;
+  text-align: left;
+}
+
+body .cards h1 {
+  margin: 30px 50px;
+  color: #343a40;
+  font-family: "Raleway";
+  font-size: 18px;
+}
+
+body .cards h1 span {
+  margin-right: 15px;
+}
+
+body .cards p {
+  margin-left: 20%;
+  width: 60%;
+  text-align: left;
+  font-size: 14px;
+}
+
+body .img {
+  width: 100%;
+  height: 60vh;
+  background: url(../../img/content5.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+body footer {
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+  font-family: "Karla";
+  font-weight: 700;
+  text-align: center;
+}
+
+body footer .text {
+  margin-top: 25vh;
+}
+
+body footer h1, body footer h4 {
+  margin: 0 auto;
+}
+
+body footer h4 {
+  font-size: 32px;
+  color: #6c757d;
+}
+
+body footer h1 {
+  color: #ffffff;
+  font-size: 66px;
+  font-style: italic;
+  letter-spacing: -4px;
+}
+
+body footer button {
+  padding: 20px 55px;
+  background-color: #ffffff;
+  border: none;
+  color: #343a40;
+  font-size: 28px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+body footer button:hover {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+/*# sourceMappingURL=main.css.map */

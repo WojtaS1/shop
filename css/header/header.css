@@ -1,0 +1,54 @@
+header {
+  margin-left: 0;
+  margin-right: 0;
+  height: 12vh;
+  background-color: color(white);
+  background-size: cover;
+  border-bottom: 1px solid color(red);
+}
+
+header .logo {
+  margin: 25px 0 0 100px;
+  font-family: font(maru);
+  font-size: 24px;
+}
+
+header .navi {
+  margin: 17px 100px 0 0;
+  float: right;
+  font-family: font(rale);
+}
+
+header .navi .navi-link {
+  padding: 10px 25px 10px 25px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  font-weight: 600;
+}
+
+header .navi .navi-link:hover {
+  color: color(red);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  cursor: pointer;
+}
+
+header .navi .navi-link-last {
+  margin: 0 100px 0 0;
+}
+
+header .navi .navi-color {
+  color: color(red);
+  font-weight: 600;
+}
+
+header .navi .navi-color span {
+  font-size: 12px;
+}
+
+header .navi .navi-color:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  cursor: pointer;
+}
+/*# sourceMappingURL=header.css.map */

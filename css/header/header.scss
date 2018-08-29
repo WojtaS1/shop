@@ -1,0 +1,44 @@
+header {
+    margin-left: 0;
+    margin-right: 0;
+    height: 12vh;
+    background-color: color(white);
+    background-size: cover;
+    border-bottom: 1px solid color(red);
+
+    .logo {
+        margin: 25px 0 0 100px;
+        font-family: font(maru);
+        font-size: 24px;
+    }
+    .navi {
+        margin: 17px 100px 0 0;
+        float: right;
+        font-family: font(rale);
+        .navi-link {
+            padding: 10px 25px 10px 25px;
+            transition-duration: 0.4s;
+            font-weight: 600;
+
+           &:hover {
+                color: color(red);
+                transform: scale(1.5);
+                cursor: pointer;
+            }
+        }
+        .navi-link-last {
+            margin: 0 100px 0 0;
+        }
+        .navi-color {
+            color: color(red);
+            font-weight: 600;
+            span {
+                font-size: 12px;
+            }
+            &:hover {
+                transform: scale(1.5);
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+.content {
+    height: 88vh;
+    background: img(content3) center center;
+	background-blend-mode:screen;
+    background-size: cover;
+
+    .text {
+        margin: 35vh 0 0 100px;
+        color: color(white);
+        font-family: font(pol);
+        font-weight: 600;
+        text-align: left;
+
+        h1 {
+            margin: 0 0 -5px 0;
+        }
+        h3, h5 {
+            font-family: font(rale);
+        }
+        h5 {
+            color: color(gray-dark);
+            margin-bottom: 50px;
+        }
+        button {
+            padding: 25px;
+            color: color(red);
+            background-color: color(white);
+            border-top-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            border: 1px solid color(red);
+            font-family: font(rale);
+            text-align: center;
+            transition-duration: 0.4s;
+            
+            &:hover {
+                background-color: color(red);
+                color: color(white);
+            }
+        }
+        
+    }
+    .box {
+        width: 100%;
+        height: 50vh;
+        margin: 25vh 0 0 10%;
+        background: img(logo) center center;
+        text-align: center;  
+    }
+}
