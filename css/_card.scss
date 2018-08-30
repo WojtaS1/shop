@@ -19,4 +19,7 @@
         text-align: left;
         font-size: 14px;
     }
+    @media (max-width: 991px) {
+        height: 100%;
+    }
 }

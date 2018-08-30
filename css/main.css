@@ -17,12 +17,6 @@ body header {
   border-bottom: 1px solid #dc3545;
 }
 
-body header .logo {
-  margin: 25px 0 0 100px;
-  font-family: "Kosugi Maru";
-  font-size: 24px;
-}
-
 body header .navi {
   margin: 17px 100px 0 0;
   float: right;
@@ -44,7 +38,7 @@ body header .navi .navi-link:hover {
 }
 
 body header .navi .navi-link-last {
-  margin: 0 100px 0 0;
+  margin: 0 0 0 100px;
 }
 
 body header .navi .navi-color {
@@ -60,6 +54,34 @@ body header .navi .navi-color:hover {
   -webkit-transform: scale(1.5);
           transform: scale(1.5);
   cursor: pointer;
+}
+
+body header .btn {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+body header .navbar-brand {
+  margin-right: 160px;
+}
+
+@media (max-width: 991px) {
+  body header .navi {
+    margin: 15px;
+    float: left;
+  }
+  body header .navbar-collapse {
+    padding: 10px 100px;
+    background-color: #ffffff;
+    text-align: center;
+    z-index: 1;
+  }
+  body header .navi-link-last, body header .navi-link-last-2 {
+    display: none;
+  }
+  body header .navbar-brand {
+    display: none;
+  }
 }
 
 body .content {
@@ -118,6 +140,12 @@ body .content .box {
   text-align: center;
 }
 
+@media (max-width: 991px) {
+  body .box {
+    display: none;
+  }
+}
+
 body .cards {
   background-color: #ffffff;
   height: 30vh;
@@ -140,6 +168,12 @@ body .cards p {
   width: 60%;
   text-align: left;
   font-size: 14px;
+}
+
+@media (max-width: 991px) {
+  body .cards {
+    height: 100%;
+  }
 }
 
 body .img {

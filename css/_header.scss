@@ -6,12 +6,6 @@ header {
     background-size: cover;
     border-bottom: 1px solid colors(red);
 
-    .logo {
-        margin: 25px 0 0 100px;
-        font-family: fonts(maru);
-        font-size: 24px;
-    }
-    
     .navi {
         margin: 17px 100px 0 0;
         float: right;
@@ -28,7 +22,7 @@ header {
             }
         }
         .navi-link-last {
-            margin: 0 100px 0 0;
+            margin: 0 0 0 100px;
         }
         .navi-color {
             color: colors(red);
@@ -40,6 +34,31 @@ header {
                 transform: scale(1.5);
                 cursor: pointer;
             }
+        }
+    }
+    .btn {
+        background-color: colors(red);
+        color: colors(white);
+    }
+    .navbar-brand {
+        margin-right: 160px;
+    }
+    @media (max-width: 991px) {
+        .navi {
+            margin: 15px;
+            float: left;
+        }
+        .navbar-collapse {
+            padding: 10px 100px;
+            background-color: colors(white);
+            text-align: center;
+            z-index: 1;
+        }
+        .navi-link-last, .navi-link-last-2 {
+            display: none;
+        }
+        .navbar-brand {
+            display: none;
         }
     }
 }
