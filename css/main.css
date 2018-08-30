@@ -65,6 +65,10 @@ body header .navbar-brand {
   margin-right: 160px;
 }
 
+body header .navi-media {
+  display: none;
+}
+
 @media (max-width: 991px) {
   body header .navi {
     margin: 15px;
@@ -78,6 +82,9 @@ body header .navbar-brand {
   }
   body header .navi-link-last, body header .navi-link-last-2 {
     display: none;
+  }
+  body header .navi-media {
+    display: block;
   }
   body header .navbar-brand {
     display: none;
@@ -227,5 +234,79 @@ body footer button:hover {
   color: #ffffff;
   outline: none;
   cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  body footer {
+    height: 100%;
+  }
+}
+
+body .modal-content {
+  border-radius: 0;
+  border: 0;
+}
+
+body .modal-content .modal-header {
+  border: 0;
+  border-radius: 0;
+  background-color: #dc3545;
+  color: #ffffff;
+  text-align: center;
+}
+
+body .modal-content .modal-header h5 {
+  font-family: "Poller One";
+}
+
+body .modal-content .modal-header button {
+  color: #ffffff;
+  opacity: 1;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+body .modal-content .modal-header button:hover {
+  color: #ffffff;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  cursor: pointer;
+}
+
+body .modal-content .modal-header button .close:hover {
+  color: #ffffff;
+}
+
+body .modal-content .modal-body h3 {
+  color: #343a40;
+  font-family: "Raleway";
+  text-align: center;
+}
+
+body .modal-content .modal-body label {
+  font-family: "Poller One";
+  text-align: left;
+  margin-top: 15px;
+}
+
+body .modal-content .modal-body a {
+  margin-left: 70%;
+  color: #6c757d;
+  font-family: "Raleway";
+  text-decoration: none;
+}
+
+body .modal-content .modal-body a:hover {
+  color: #dc3545;
+}
+
+body .modal-content .modal-footer button {
+  width: 100%;
+  padding: 10px;
+  background-color: #dc3545;
+  border: none;
+  border-radius: 0;
+  color: #ffffff;
+  font-family: "Raleway";
 }
 /*# sourceMappingURL=main.css.map */

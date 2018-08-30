@@ -1,0 +1,67 @@
+.modal-content {
+    border-radius: 0;
+    border: 0;
+    .modal-header {
+        border: 0;
+        border-radius: 0;
+        background-color: colors(red);
+        color: colors(white);
+        text-align: center;
+
+        h5 {
+            font-family: fonts(pol);
+        }
+        button {
+            color: colors(white);
+            opacity: 1;
+            transition: 0.4s;
+
+            &:hover {
+                color: colors(white);
+                transform: scale(1.5);
+                cursor: pointer;
+            }
+            .close {
+
+                &:hover {
+                color: colors(white);
+                }
+            }
+        }
+    }
+    .modal-body {
+        
+
+        h3 {
+            color: colors(gray-dark);
+            font-family: fonts(rale);
+            text-align: center;
+        }
+        label {
+            font-family: fonts(pol);
+            text-align: left;
+            margin-top: 15px;
+        }
+        a {
+            margin-left: 70%;
+            color: colors(gray);
+            font-family: fonts(rale);
+            text-decoration: none;
+
+            &:hover {
+                color: colors(red);
+            }
+        }
+    }
+    .modal-footer {
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: colors(red);
+            border: none;
+            border-radius: 0;
+            color: colors(white);
+            font-family: fonts(rale);
+        }
+    }
+}

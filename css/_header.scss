@@ -43,6 +43,9 @@ header {
     .navbar-brand {
         margin-right: 160px;
     }
+    .navi-media {
+        display: none;
+    }
     @media (max-width: 991px) {
         .navi {
             margin: 15px;
@@ -56,6 +59,9 @@ header {
         }
         .navi-link-last, .navi-link-last-2 {
             display: none;
+        }
+        .navi-media {
+            display: block;
         }
         .navbar-brand {
             display: none;
