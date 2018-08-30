@@ -35,6 +35,8 @@
             &:hover {
                 background-color: color(red);
                 color: color(white);
+                outline: none;
+                cursor: pointer;
             }
         }
         
