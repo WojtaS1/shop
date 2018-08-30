@@ -1,12 +1,12 @@
 .cards {
-    background-color: color(white);
+    background-color: colors(white);
     height: 30vh;
     text-align: left;
 
     h1 {
         margin: 30px 50px;
-        color: color(gray-dark);
-        font-family: font(rale);
+        color: colors(gray-dark);
+        font-family: fonts(rale);
         font-size: 18px;
 
         span {

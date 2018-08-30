@@ -1,8 +1,8 @@
-@function color($color-name){
-    @return map-get($color, $color-name)   
+@function colors($color-name){
+    @return map-get($colors, $color-name)   
 };
 
-$color: (
+$colors: (
     blue: #007bff,
     indigo: #6610f2,
     purple: #6f42c1,
@@ -25,26 +25,26 @@ $color: (
 @import url('https://fonts.googleapis.com/css?family=Poller+One');
 @import url('https://fonts.googleapis.com/css?family=Karla');
 
-@function font($font-name){
-    @return map-get($font, $font-name)
+@function fonts($font-name){
+    @return map-get($fonts, $font-name)
 };
 
-$font: (
+$fonts: (
     karla: 'Karla',
     maru: 'Kosugi Maru',
     rale: 'Raleway',
     pol: 'Poller One'
 );
 
-@function img($img-name){
-    @return map-get($img, $img-name)
+@function imgs($img-name){
+    @return map-get($imgs, $img-name)
 };
 
-$img: (
+$imgs: (
     content: url(../img/content.jpg),
     content1: url(../img/content2.jpg),
     content2: url(../img/content3.jpg),
     content3: url(../img/content4.jpg),
     content4: url(../img/content5.jpg),
     logo: url(../img/logo.png)
-)
+);

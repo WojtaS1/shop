@@ -1,12 +1,12 @@
-@import 'functions.scss';
+@import '_functions.scss';
+
 body {
     padding: 0;
     margin: 0;
     background-color: color(pink);
-
-    @import 'header.scss';
-    @import 'concent.scss';
-    @import 'cards.scss';
-    @import 'img.scss';
-    @import 'footer.scss';
+    @import '_header.scss';
+    @import '_content.scss';
+    @import '_card.scss';
+    @import '_img.scss';
+    @import '_footer.scss';
 }

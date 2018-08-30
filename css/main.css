@@ -5,7 +5,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #e83e8c;
+  background-color: color(pink);
 }
 
 body header {
@@ -33,7 +33,7 @@ body header .navi .navi-link {
   padding: 10px 25px 10px 25px;
   -webkit-transition-duration: 0.4s;
           transition-duration: 0.4s;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 body header .navi .navi-link:hover {
@@ -64,7 +64,7 @@ body header .navi .navi-color:hover {
 
 body .content {
   height: 88vh;
-  background: url(../../img/content4.jpg) center center;
+  background: url(../img/content4.jpg) center center;
   background-blend-mode: screen;
   background-size: cover;
 }
@@ -106,13 +106,15 @@ body .content .text button {
 body .content .text button:hover {
   background-color: #dc3545;
   color: #ffffff;
+  outline: none;
+  cursor: pointer;
 }
 
 body .content .box {
   width: 100%;
   height: 50vh;
   margin: 25vh 0 0 10%;
-  background: url(../../img/logo.png) center center;
+  background: url(../img/logo.png) center center;
   text-align: center;
 }
 
@@ -143,7 +145,7 @@ body .cards p {
 body .img {
   width: 100%;
   height: 60vh;
-  background: url(../../img/content5.jpg) center center no-repeat;
+  background: url(../img/content5.jpg) center center no-repeat;
   background-size: cover;
 }
 
@@ -189,5 +191,7 @@ body footer button {
 body footer button:hover {
   background-color: #dc3545;
   color: #ffffff;
+  outline: none;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
